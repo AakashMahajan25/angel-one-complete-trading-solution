@@ -2,6 +2,18 @@
 
 A comprehensive Python wrapper for Angel One (Angel Broking) trading APIs that provides both REST API and WebSocket functionality for automated trading operations.
 
+## 📈 Project Evolution
+
+This project is an **enhanced version** of the original [Angel One API Wrapper](https://github.com/AakashMahajan25/angel-one-api-wrapper) that provided REST API functionality only. This complete solution extends the original project by adding:
+
+- **Real-time WebSocket streaming** for live market data
+- **Binary data parsing** for Angel One's WebSocket protocol  
+- **Advanced subscription management** with multiple data modes
+- **Auto-reconnection and heartbeat** mechanisms
+- **Enhanced error handling** for WebSocket connections
+
+If you only need REST API functionality, you can still use the [original API wrapper](https://github.com/AakashMahajan25/angel-one-api-wrapper). Use this complete solution when you need real-time data streaming capabilities.
+
 ## 🚀 Features
 
 ### 📊 REST API Capabilities
