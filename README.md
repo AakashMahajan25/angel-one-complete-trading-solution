@@ -33,11 +33,11 @@ A comprehensive Python wrapper for Angel One (Angel Broking) trading APIs that p
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/your-username/angel-one-complete-trading-solution.git
+git clone https://github.com/AakashMahajan25/angel-one-complete-trading-solution.git
 cd angel-one-complete-trading-solution
 ```
 
-### 2. Create Virtual Environment
+### 2. Create Virtual Environment (Optional)
 ```bash
 # Create virtual environment
 python -m venv venv
@@ -298,24 +298,6 @@ async def robust_trading_example():
 }
 ```
 
-## 🚨 Important Notes
-
-### Security Considerations
-- **Never commit `.env` files** to version control
-- **Rotate API keys regularly**
-- **Use environment-specific configurations**
-- **Monitor API usage and rate limits**
-
-### Rate Limits
-- REST API: Check Angel One documentation for current limits
-- WebSocket: Maintain proper heartbeat intervals
-- Consider implementing request throttling for high-frequency operations
-
-### Testing Guidelines
-- **Use paper trading/demo accounts** for development
-- **Test with small quantities** first
-- **Implement proper logging** for audit trails
-- **Monitor order executions** closely
 
 ## 🐛 Troubleshooting
 
